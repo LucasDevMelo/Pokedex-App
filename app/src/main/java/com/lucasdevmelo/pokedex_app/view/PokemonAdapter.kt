@@ -35,7 +35,7 @@ class PokemonAdapter(
             val tvType1 = findViewById<TextView>(R.id.tvType1)
             val tvType2 = findViewById<TextView>(R.id.tvType2)
 
-            tvNumber.text = "Número ${item.number}"
+            tvNumber.text = "Nº ${item.formattedNumber}"
             tvName.text = item.name
             tvType1.text = item.types[0].name
 
